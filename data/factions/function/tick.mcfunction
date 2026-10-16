@@ -1,12 +1,12 @@
 # --- Покарання для "Потолочь" (якщо вони на висоті Y=60 або вище) ---
-execute as @a[tag=potoloch] at @s if entity @s[y=60,dy=320] run effect give @s wither 3 3 true
-execute as @a[tag=potoloch] at @s if entity @s[y=60,dy=320] run effect give @s blindness 3 0 true
-execute as @a[tag=potoloch] at @s if entity @s[y=60,dy=320] run effect give @s slowness 3 1 true
+execute as @a[tag=potoloch] at @s if entity @s[y=60,dy=320] run effect give @s minecraft:wither 3 3 true
+execute as @a[tag=potoloch] at @s if entity @s[y=60,dy=320] run effect give @s minecraft:blindness 3 0 true
+execute as @a[tag=potoloch] at @s if entity @s[y=60,dy=320] run effect give @s minecraft:slowness 3 1 true
 
 # --- Покарання для "Піднесених" (якщо вони на висоті Y=59 або нижче) ---
-execute as @a[tag=pidneseni] at @s if entity @s[y=-64,dy=123] run effect give @s wither 3 3 true
-execute as @a[tag=pidneseni] at @s if entity @s[y=-64,dy=123] run effect give @s blindness 3 0 true
-execute as @a[tag=pidneseni] at @s if entity @s[y=-64,dy=123] run effect give @s slowness 3 1 true
+execute as @a[tag=pidneseni] at @s if entity @s[y=-64,dy=123] run effect give @s minecraft:wither 3 3 true
+execute as @a[tag=pidneseni] at @s if entity @s[y=-64,dy=123] run effect give @s minecraft:blindness 3 0 true
+execute as @a[tag=pidneseni] at @s if entity @s[y=-64,dy=123] run effect give @s minecraft:slowness 3 1 true
 
 # 1. Розміщення нових верстаків (якщо гравець клікнув яйцем)
 execute as @e[type=marker,tag=t1_workbench_new] at @s run function factions:t1_setup

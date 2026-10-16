@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "features": [
-    "factions:nether_quartz"
-  ],
-  "step": "underground_ores"
-}

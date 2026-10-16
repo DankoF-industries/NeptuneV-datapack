@@ -10,7 +10,9 @@
             ],
             "predicates": {
               "minecraft:written_book_content": {
-                "title": "oculus mandere"
+                "title": {
+                  "raw": "oculus mandere"
+                }
               }
             }
           }
