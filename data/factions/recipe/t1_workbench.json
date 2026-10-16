@@ -1,27 +1,34 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "DCD",
     "FBF",
     "OSR"
   ],
   "key": {
-    "D": { "item": "minecraft:diamond" },
-    "C": { "item": "minecraft:green_carpet" },
-    "F": { "item": "minecraft:nether_brick_fence" },
-    "B": { "item": "minecraft:netherite_block" },
-    "O": { "item": "minecraft:bone" },
-    "S": { "item": "minecraft:wither_skeleton_skull" },
-    "R": { "item": "minecraft:rotten_flesh" }
+    "D": "minecraft:diamond",
+    "C": "minecraft:green_carpet",
+    "F": "minecraft:nether_brick_fence",
+    "B": "minecraft:netherite_block",
+    "O": "minecraft:bone",
+    "S": "minecraft:wither_skeleton_skull",
+    "R": "minecraft:rotten_flesh"
   },
   "result": {
     "id": "minecraft:bat_spawn_egg",
     "count": 1,
     "components": {
-      "minecraft:custom_name": "{\"text\":\"Верстак потолочі\",\"color\":\"dark_green\",\"italic\":false}",
+      "minecraft:custom_name": {
+        "text": "Верстак потолочі",
+        "color": "dark_green",
+        "italic": false
+      },
       "minecraft:entity_data": {
         "id": "minecraft:marker",
-        "Tags": ["t1_workbench_new"]
+        "Tags": [
+          "t1_workbench_new"
+        ]
       }
     }
   }
