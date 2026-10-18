@@ -19,11 +19,7 @@
     "id": "minecraft:bat_spawn_egg",
     "count": 1,
     "components": {
-      "minecraft:custom_name": {
-        "text": "Верстак потолочі",
-        "color": "dark_green",
-        "italic": false
-      },
+      "minecraft:custom_name": "{\"text\":\"Верстак потолочі\",\"color\":\"dark_green\",\"italic\":false}",
       "minecraft:entity_data": {
         "id": "minecraft:marker",
         "Tags": [

@@ -15,5 +15,5 @@ execute as @e[type=marker,tag=t1_workbench_new] at @s run function factions:t1_s
 execute as @e[type=marker,tag=t1_workbench] at @s run function factions:t1_craft_check
 
 # 3. Обробка Каменя Левітації у руці
-execute as @a if items entity @s weapon.mainhand minecraft:cobblestone[minecraft:custom_data={levitation_stone:1b}] run effect give @s minecraft:levitation 2 1 true
-execute as @a if items entity @s weapon.offhand minecraft:cobblestone[minecraft:custom_data={levitation_stone:1b}] run effect give @s minecraft:levitation 2 1 true
+execute as @a if items entity @s weapon.mainhand minecraft:blue_dye[minecraft:custom_data={levitation_stone:1b}] run effect give @s minecraft:levitation 2 1 true
+execute as @a if items entity @s weapon.offhand minecraft:blue_dye[minecraft:custom_data={levitation_stone:1b}] run effect give @s minecraft:levitation 2 1 true
