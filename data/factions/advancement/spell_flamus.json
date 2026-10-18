@@ -10,9 +10,7 @@
             ],
             "predicates": {
               "minecraft:written_book_content": {
-                "title": {
-                  "raw": "flamus hominus"
-                }
+                "title": "flamus hominus"
               }
             }
           }
